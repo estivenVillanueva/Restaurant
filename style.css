@@ -51,13 +51,13 @@ body {
     position: static;
     position: relative;
     left: 100px;
-    top: -26px;
+    top: -25px;
   }
   .text1{
     position: static;
     position: relative;
     left: 100px;
-    top: -10px;
+    top: -20px;
   }
   .image-gallery img {
     max-width: 22%;
@@ -69,6 +69,7 @@ body {
     max-width: 20%;
     margin: 10px;
     border-radius: 20%;
+    box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #ffd500, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 30px #ccab08;
   }
   .image-gallery1 {
     display: flex;
@@ -107,6 +108,7 @@ body {
   .contact-form textarea {
     margin-bottom: 10px;
     padding: 10px;
+    border-radius: 10px;
   }
   
   .contact-form button {
@@ -115,14 +117,20 @@ body {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 20px;
   }
   
  
   footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
+    text-align: left;
     padding: 10px;
   }
 
-  
+  .social{
+    text-align: right;
+    padding: 15px;
+    position: relative;
+    top: -40px;
+  }
