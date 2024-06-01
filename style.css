@@ -1,11 +1,14 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
   }
   
- 
+::backdrop{
+  width: 100%;
+  height: auto;
+}
   header {
     background-color: #333;
     color: #fff;
@@ -18,6 +21,9 @@ body {
   .logo img {
     height: 100px;
     border-radius: 50%;
+    position: relative;
+    left: 20%;
+    box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #ffd500, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 30px #ccab08;
   }
   
   nav ul {
@@ -36,19 +42,50 @@ body {
     text-decoration: none;
   }
   
-
   .image-gallery {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  .text{
+    position: static;
+    position: relative;
+    left: 100px;
+    top: -26px;
+  }
+  .text1{
+    position: static;
+    position: relative;
+    left: 100px;
+    top: -10px;
+  }
+  .image-gallery img {
+    max-width: 22%;
+    margin: 10px;
+    border-radius: 20%;
+    box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #ffd500, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 30px #ccab08;
+  }
+  .image-gallery1 img {
+    max-width: 20%;
+    margin: 10px;
+    border-radius: 20%;
+  }
+  .image-gallery1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+  }
+  .image-gallery2 img {
+    max-width: 22%;
+    margin: 10px;
+    border-radius: 20%;
+    box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #ffd500, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 30px #ccab08;
+  }
+  .image-gallery2 {
     display: flex;
     justify-content: center;
     margin: 20px 0;
   }
-  
-  .image-gallery img {
-    max-width: 20%;
-    margin: 0 10px;
-    border-radius: 20%;
-  }
-
   .contact-form {
     background-color: #f2f2f2;
     padding: 20px;
