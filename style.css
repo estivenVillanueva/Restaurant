@@ -11,13 +11,18 @@ body {
 }
   header {
     background-color: #333;
-    color: #fff;
+    color: #312e2e;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
   }
-  
+  header {
+    background-image: url('fondos/istockphoto-1402215903-612x612.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
   .logo img {
     height: 100px;
     border-radius: 50%;
@@ -38,7 +43,7 @@ body {
   }
   
   nav a {
-    color: #fff;
+    color: #413e3e;
     text-decoration: none;
   }
   
@@ -60,13 +65,13 @@ body {
     top: -20px;
   }
   .image-gallery img {
-    max-width: 22%;
+    max-width: 15%;
     margin: 10px;
     border-radius: 20%;
     box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #ffd500, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 30px #ccab08;
   }
   .image-gallery1 img {
-    max-width: 20%;
+    max-width: 15%;
     margin: 10px;
     border-radius: 20%;
     box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #ffd500, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 30px #ccab08;
@@ -77,7 +82,7 @@ body {
     margin: 20px 10px;
   }
   .image-gallery2 img {
-    max-width: 22%;
+    max-width: 15%;
     margin: 10px;
     border-radius: 20%;
     box-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #ffd500, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 10px #ccab08, 0 0 30px #ccab08;
